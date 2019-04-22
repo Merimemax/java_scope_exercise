@@ -5,13 +5,30 @@ public class Connection {
     static int nextId = 1;
     private int id = 0;
 
-    int getid(){
-        return this.id;
+    public int getId() {
+        return id;
     }
-    int runQuery(String s){
-        System.out.println("Running " + s);
-        return 0;
+
+    public void setId(int id) {
+        this.id = id;
     }
+
+    public boolean isLeased() {
+        return leased;
+    }
+
+    public void setLeased(boolean leased) {
+        this.leased = leased;
+    }
+
+    public static int getNextId() {
+        return nextId;
+    }
+
+    public static void setNextId(int nextId) {
+        Connection.nextId = nextId;
+    }
+
     void close(){
         leased = false;
         id = nextId ++;
