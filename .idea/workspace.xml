@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f18846af-0f9a-4eaa-a964-a44586d2ee13" name="Default Changelist" comment="" />
+    <list default="true" id="f18846af-0f9a-4eaa-a964-a44586d2ee13" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cognizant/scope/ConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cognizant/scope/ConnectionPool.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,12 +20,48 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cognizant/scope/SayHello.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" column="47" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cognizant/scope/AddTwoNumbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cognizant/scope/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cognizant/scope/ConnectionPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -36,17 +75,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/cognizant/scope/Connection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cognizant/scope/ConnectionPool.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cognizant/scope/AddTwoNumbersTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cognizant/scope/AddTwoNumbers.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cognizant/scope/Student.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cognizant/scope/StudentTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cognizant/scope/SayHelloTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cognizant/scope/SayHello.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cognizant/scope/ConnectionPool.java" />
       </list>
     </option>
   </component>
@@ -55,6 +98,7 @@
     <option name="width" value="1366" />
     <option name="height" value="699" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -129,8 +173,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -151,20 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SayHello">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cognizant.scope.App" />
-      <module name="java_scope_exercise.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cognizant.scope.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ConnectionPoolTest">
     <configuration name="SayHello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cognizant.scope.SayHello" />
       <module name="java_scope_exercise.main" />
@@ -191,6 +222,21 @@
       <option name="MAIN_CLASS_NAME" value="com.cognizant.scope.AddTwoNumbersTest" />
       <option name="METHOD_NAME" value="addTwoNumbers" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectionPoolTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_scope_exercise.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cognizant.scope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cognizant.scope" />
+      <option name="MAIN_CLASS_NAME" value="com.cognizant.scope.ConnectionPoolTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -228,19 +274,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.App" />
       <item itemvalue="Application.SayHello" />
       <item itemvalue="JUnit.AddTwoNumbersTest.addTwoNumbers" />
       <item itemvalue="JUnit.SayHelloTest.sayHello" />
       <item itemvalue="JUnit.StudentTest.compareTwoObject" />
+      <item itemvalue="JUnit.ConnectionPoolTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConnectionPoolTest" />
         <item itemvalue="Application.SayHello" />
         <item itemvalue="JUnit.SayHelloTest.sayHello" />
         <item itemvalue="JUnit.StudentTest.compareTwoObject" />
         <item itemvalue="JUnit.AddTwoNumbersTest.addTwoNumbers" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +297,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555944517338</updated>
-      <workItem from="1555944518535" duration="6113000" />
+      <workItem from="1555944518535" duration="6994000" />
+      <workItem from="1555973507134" duration="1094000" />
     </task>
     <servers />
   </component>
@@ -288,84 +335,45 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6113000" />
+    <option name="totallyTimeSpent" value="8088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25377643" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.3295129" />
-      <window_info anchor="bottom" id="Terminal" weight="0.22636104" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.28653294" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1790831" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1790831" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.25787964" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="12" weight="0.28653294" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3295129" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Gradle" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cognizant/scope/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cognizant/scope/ConnectionPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cognizant/scope/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cognizant/scope/AddTwoNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#122#123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cognizant/scope/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
@@ -432,10 +440,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cognizant/scope/AddTwoNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cognizant/scope/SayHello.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="47" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cognizant/scope/ConnectionPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cognizant/scope/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="33" selection-end-column="23" />
+          <folding>
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cognizant/scope/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

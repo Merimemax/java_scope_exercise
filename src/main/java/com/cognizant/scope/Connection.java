@@ -1,16 +1,21 @@
 package com.cognizant.scope;
 
-public class Connection {
-    boolean leased = false;
-    static int nextId = 1;
+public class Connection implements AutoCloseable {
+
+    private boolean leased = false;
+    private static int nextId = 1;
     private int id = 0;
 
-    public int getId() {
-        return id;
+//    private Connection(){}
+
+    @Override
+    public void close() throws Exception {
+        this.leased = false;
+        this.id = this.nextId - 1;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void runQuery(String q){
+
     }
 
     public boolean isLeased() {
@@ -29,8 +34,11 @@ public class Connection {
         Connection.nextId = nextId;
     }
 
-    void close(){
-        leased = false;
-        id = nextId ++;
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }

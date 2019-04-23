@@ -4,11 +4,14 @@
 package com.cognizant.scope;
 
 public class App {
-    public String getGreeting() {
-        return "Hello world.";
-    }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+
+        ConnectionPool pool = new ConnectionPool(5);
+        try(Connection connection = pool.getConnection()) {
+            throw new RuntimeException("Kaboom!");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }

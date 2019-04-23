@@ -1,40 +1,51 @@
 package com.cognizant.scope;
 
 public class ConnectionPool {
-    private static final int MAX = 5;
 
-    Connection[] pool = new Connection[MAX];
+    private int max;
 
-    private Connection createConnection(){
-        Connection c;
-        for(int i = 0; i < MAX; i++){
-            c = new Connection();
-            pool[i] = c;
+    private Connection[] pool;
+
+    public ConnectionPool(int max) {
+        this.max = max;
+        pool  = new Connection[max];
+    }
+
+    public Connection[] getPool() {
+        return pool;
+    }
+
+    public Connection createConnection(){
+        for (int i = 0; i < max ; i++) {
+            pool[i] = new Connection();
+            pool[i].setLeased(true);
         }
+        return pool[0];
     }
 
-    private Connection getConnection(){
-
-        for(Connection c : pool){
-            if(c.leased == false){
-                c.leased = true;
-                return c;
-            }
-        }
-        return null;
-    }
-
-    void releaseConnection(Connection connection){
-
-    }
-
-    int getLeasedCount(){
+    public int getLeasedCount(){
         int count = 0 ;
         for(Connection c : pool){
-            if(!c.leased){
+            if(c.isLeased()){
                 count++;
             }
         }
         return count;
     }
+
+    public Connection getConnection(){
+
+        for(Connection c : pool){
+            if(!c.isLeased()){
+                c.setLeased(true);
+                return c;
+            }
+        }
+        return pool[0];
+    }
+
+    public void releaseConnection(Connection connection) throws Exception {
+        connection.close();
+    }
+
 }
